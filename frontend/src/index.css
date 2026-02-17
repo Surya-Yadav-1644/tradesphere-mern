@@ -87,7 +87,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Prevent horizontal scroll */
 * {
   box-sizing: border-box;
 }
@@ -97,24 +96,19 @@ code {
     monospace;
 }
 
-
-/* ========================= */
 /* Navbar */
-/* ========================= */
-
 .nav-link {
-  margin-left: 40px;
+  margin-left: 30px;
 }
 
-
 /* ========================= */
-/* Support Hero Section */
+/* Support Section */
 /* ========================= */
 
 #supportHero {
   background-color: rgb(56, 126, 209);
   color: white;
-  padding: 40px 0;
+  padding: 60px 20px;
 }
 
 #supportHero a {
@@ -125,57 +119,41 @@ code {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 150px;
   gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+  flex-wrap: wrap; /* important */
 }
 
 #supportHero input {
   text-align: center;
-  padding: 20px 60px;
+  padding: 15px 20px;
   width: 100%;
-  max-width: 600px;
-  font-size: 18px;
+  max-width: 500px;
+  font-size: 16px;
   border-radius: 10px;
   border: none !important;
 }
 
-
 /* ========================= */
-/* 📱 Mobile (max 768px) */
+/* Mobile */
 /* ========================= */
 
 @media (max-width: 768px) {
 
   .nav-link {
-    margin-left: 15px;
+    margin-left: 10px;
   }
 
   #supportWrapper {
     flex-direction: column;
-    margin: 0 20px;
     text-align: center;
   }
 
-  #supportHero input {
-    padding: 14px;
-    font-size: 16px;
+  #supportHero {
+    padding: 40px 15px;
   }
 }
 
 
-/* ========================= */
-/* 📲 Tablet (769px - 1024px) */
-/* ========================= */
-
-@media (min-width: 769px) and (max-width: 1024px) {
-
-  #supportWrapper {
-    margin: 0 60px;
-    gap: 25px;
-  }
-
-  #supportHero input {
-    padding: 18px 40px;
-  }
-}
 

@@ -110,19 +110,19 @@
 
 
 .auth-container {
-  min-height: 100vh;   /* height hata diya */
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 20px;
   background: linear-gradient(135deg, #1e3c72, #2a5298);
-  padding: 20px;   /* important for mobile */
 }
 
 .auth-card {
   background: white;
   padding: 40px;
   width: 100%;
-  max-width: 380px;  /* fixed width ki jagah max-width */
+  max-width: 380px;   /* responsive */
   border-radius: 12px;
   box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
   text-align: center;
@@ -138,6 +138,7 @@
   margin: 10px 0;
   border-radius: 8px;
   border: 1px solid #ccc;
+  font-size: 14px;
 }
 
 .auth-card input:focus {
@@ -168,14 +169,9 @@
   font-weight: bold;
 }
 
-
-/* 📱 Mobile */
-@media (max-width: 600px) {
+/* Mobile Fix */
+@media (max-width: 480px) {
   .auth-card {
     padding: 25px;
-  }
-
-  .auth-card h2 {
-    font-size: 20px;
   }
 }
