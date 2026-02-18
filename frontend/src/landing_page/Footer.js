@@ -5,11 +5,11 @@ function Footer() {
     <footer style={{backgroundColor: "rgb(250, 250, 250)"}}>
     <div className="container border-top mt-5">
       <div className="row mt-5">
-        <div className="col">
-          <img src="media/images/logo.svg" style={{ width: "50%" }} />
+        <div className="col-12 col-md mb-4 mb-md-0">
+          <img src="media/images/logo.svg" className="img-fluid mb-3" style={{maxWidth: "200px"}} alt="Zerodha Logo" />
           <p>&copy; 2010-2024, Not Zerodha Broking Ltd. All rights reserved.</p>
         </div>
-        <div className="col">
+        <div className="col-12 col-md mb-4 mb-md-0">
           <p>Company</p>
           <a href="" style={{textDecoration: "none"}}>About</a>
           <br />
@@ -28,7 +28,7 @@ function Footer() {
           <a href="" style={{textDecoration: "none"}}>Zerodha cares(CSR)</a>
           <br />
         </div>
-        <div className="col">
+        <div className="col-12 col-md mb-4 mb-md-0">
           <p>Support</p>
           <a href="" style={{textDecoration: "none"}}>Contact</a>
           <br />
@@ -41,7 +41,7 @@ function Footer() {
           <a href="" style={{textDecoration: "none"}}>Downloads & resources</a>
           <br />
         </div>
-        <div className="col">
+        <div className="col-12 col-md mb-4 mb-md-0">
           <p>Account</p>
           <a href="" style={{textDecoration: "none"}}>Open an account</a>
           <br />
@@ -93,12 +93,12 @@ function Footer() {
         </p>
       </div>
       <div className="mt-5  text-center ">
-        <a href="" class='mx-3' style={{textDecoration: "none"}}>NSE</a>
-        <a href="" class='mx-3' style={{textDecoration: "none"}}>BSE MCX</a>
-        <a href="" class='mx-3' style={{textDecoration: "none"}}>Terms & conditions</a>
-        <a href=""class='mx-3' style={{textDecoration: "none"}}>Policies & procedures</a>
-        <a href=""class='mx-3' style={{textDecoration: "none"}}>Privacy policy</a>
-        <a href="" class='mx-3' style={{textDecoration: "none"}}>Disclosure</a>
+        <a href="" className='d-block d-md-inline-block mx-md-3 mb-2 mb-md-0' style={{textDecoration: "none"}}>NSE</a>
+        <a href="" className='d-block d-md-inline-block mx-md-3 mb-2 mb-md-0' style={{textDecoration: "none"}}>BSE MCX</a>
+        <a href="" className='d-block d-md-inline-block mx-md-3 mb-2 mb-md-0' style={{textDecoration: "none"}}>Terms & conditions</a>
+        <a href=""className='d-block d-md-inline-block mx-md-3 mb-2 mb-md-0' style={{textDecoration: "none"}}>Policies & procedures</a>
+        <a href=""className='d-block d-md-inline-block mx-md-3 mb-2 mb-md-0' style={{textDecoration: "none"}}>Privacy policy</a>
+        <a href="" className='d-block d-md-inline-block mx-md-3 mb-2 mb-md-0' style={{textDecoration: "none"}}>Disclosure</a>
       </div>
     </div>
     </footer>

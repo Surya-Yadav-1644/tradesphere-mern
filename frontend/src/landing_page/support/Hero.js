@@ -10,16 +10,16 @@ function Hero() {
         </a>
       </div>
       <div className="row p-3">
-        <div className="col-6 p-5">
+        <div className="col-12 col-md-6 p-3 p-md-5">
           <h1 className="fs-3">Search for an answer or browse help topics to create a ticket</h1>
-          <input className="mb-3" placeholder="Eg: how do i activate F&O, why is my order getting rejected..." />
+          <input className="form-control mb-3" placeholder="Eg: how do i activate F&O, why is my order getting rejected..." />
           <br/>
-          <a href="" class="me-3">Track account opening</a>
-          <a href="" class="me-3">Track segment activation</a>
-          <a href="" class="me-3">Intraday margins</a>
-          <a href="" class="me-3">Kite user manual</a>
+          <a href="" className="me-3 d-inline-block mb-2 mb-md-0">Track account opening</a>
+          <a href="" className="me-3 d-inline-block mb-2 mb-md-0">Track segment activation</a>
+          <a href="" className="me-3 d-inline-block mb-2 mb-md-0">Intraday margins</a>
+          <a href="" className="me-3 d-inline-block mb-2 mb-md-0">Kite user manual</a>
         </div>
-        <div className="col-6 p-5">
+        <div className="col-12 col-md-6 p-3 p-md-5 mt-4 mt-md-0">
           <h1 className="fs-3">Featured</h1>
           <ol>
             <li><a href="">Current Takeovers and Delisting - January 2024</a></li>

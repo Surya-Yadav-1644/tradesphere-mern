@@ -3,23 +3,23 @@ import React from "react";
 function Team() {
   return (
     <div className="container">
-      <div className="row p-3 mt-5 border-top">
+      <div className="row px-3 px-md-5 mt-4 mt-md-5 border-top">
         <h1 className="text-center">People</h1>
       </div>
 
       <div
-        className="row p-3 text-muted"
+        className="row px-3 px-md-5 text-muted"
         style={{ lineHeight: "1.8", fontSize: "1.2em" }}
       >
-        <div className="col-6 p-3 text-center">
+        <div className="col-12 col-md-6 p-3 p-md-4 text-center">
           <img
             src="media/images/nithinKamath.jpg"
-            style={{ borderRadius: "100%", width: "50%" }}
+            style={{ borderRadius: "100%", width: "60%", maxWidth: "250px" }}
           />
           <h4 className="mt-5">Nithin Kamath</h4>
           <h5>Founder, CEO</h5>
         </div>
-        <div className="col-6 p-3">
+        <div className="col-12 col-md-6 p-3 p-md-4">
           <p>
             Nithin bootstrapped and founded Zerodha in 2010 to overcome the
             hurdles he faced during his decade long stint as a trader. Today,

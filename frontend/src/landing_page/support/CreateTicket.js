@@ -3,11 +3,11 @@ import React from 'react';
 function CreateTicket() {
     return ( 
         <div className="container">
-      <div className="row p-5 my-5">
+      <div className="row px-3 px-md-5 py-4 py-md-5 my-4 my-md-5">
         <h1 className="fs-2">To create a ticket, select a relevant topic</h1>
-        <div className="col-4 p-5 my-2">
+        <div className="col-12 col-sm-6 col-lg-4 p-3 p-md-5 my-2">
           <h4 className="fs-5">
-            <i class="fa fa-plus-circle" aria-hidden="true"></i>Account Opening
+            <i className="fa fa-plus-circle me-2" aria-hidden="true"></i>Account Opening
           </h4>
           <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
             Online Account Opening
